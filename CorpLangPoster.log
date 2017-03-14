@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  14 MAR 2017 21:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  14 MAR 2017 21:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,30 +566,30 @@ ABD: EveryShipout initializing macros
 File: UPB_LOGO_GB_CMYK_15.pdf Graphic file (type pdf)
 
 <use UPB_LOGO_GB_CMYK_15.pdf>
-Package pdftex.def Info: UPB_LOGO_GB_CMYK_15.pdf used on input line 63.
+Package pdftex.def Info: UPB_LOGO_GB_CMYK_15.pdf used on input line 65.
 (pdftex.def)             Requested size: 338.59369pt x 91.08897pt.
 
 <background_blank_A4.pdf, id=5, 597.23125pt x 845.1575pt>
 File: background_blank_A4.pdf Graphic file (type pdf)
 
 <use background_blank_A4.pdf>
-Package pdftex.def Info: background_blank_A4.pdf used on input line 65.
+Package pdftex.def Info: background_blank_A4.pdf used on input line 67.
 (pdftex.def)             Requested size: 1194.3411pt x 1690.14322pt.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./backg
 round_blank_A4.pdf> <./UPB_LOGO_GB_CMYK_15.pdf>] (./CorpLangPoster.aux) ) 
 Here is how much of TeX's memory you used:
- 13380 strings out of 493013
- 266275 string characters out of 6133343
- 298955 words of memory out of 5000000
- 16665 multiletter control sequences out of 15000+600000
+ 13369 strings out of 493013
+ 265964 string characters out of 6133343
+ 297955 words of memory out of 5000000
+ 16654 multiletter control sequences out of 15000+600000
  4245 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,425b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-Output written on CorpLangPoster.pdf (1 page, 145568 bytes).
+Output written on CorpLangPoster.pdf (1 page, 145436 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
