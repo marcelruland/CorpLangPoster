@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a2paper}
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}	
+\usepackage{amssymb}
+
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,%
+keepaspectratio]{background_blank_A4.pdf}%
+\vfill
+}}}
+
+\begin{document}
+\AddToShipoutPicture{\BackgroundPic}
+\begin{titlepage}
+	Bla.
+\end{titlepage}
+
+\end{document}  
