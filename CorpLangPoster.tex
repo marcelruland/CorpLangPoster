@@ -1,20 +1,22 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 \usepackage{geometry}
 \geometry{a2paper}
 %\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}	
 \usepackage{amssymb}
-
 \usepackage{eso-pic}
-\newcommand\BackgroundPic{%
-\put(0,0){%
-\parbox[b][\paperheight]{\paperwidth}{%
-\vfill
-\centering
-\includegraphics[width=\paperwidth,height=\paperheight,%
-keepaspectratio]{background_blank_A4.pdf}%
-\vfill
-}}}
+	\newcommand\BackgroundPic{%
+	\put(0,0){%
+	\parbox[b][\paperheight]{\paperwidth}{%
+	\vfill
+	\centering
+	\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{background_blank_A4.pdf}%
+	\vfill
+	}}}
+\definecolor{langblue1}{HTML}{01215B}
+\definecolor{langred1}{HTML}{D73367}
+\definecolor{langgray1}{gray}{0.65}
+\definecolor{langgray2}{HTML}{C7C9C7}
 
 \begin{document}
 \AddToShipoutPicture{\BackgroundPic}
