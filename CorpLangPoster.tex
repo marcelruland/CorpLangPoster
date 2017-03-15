@@ -2,8 +2,9 @@
 \documentclass[12pt]{article}
 \renewcommand{\familydefault}{\sfdefault}
 %\usepackage[T1]{fontenc}
-\usepackage[top=4cm, bottom=4cm, left=4cm, right=4cm]{geometry}
+\usepackage[top=4cm, bottom=4cm, left=6cm, right=6cm]{geometry}
 \geometry{a2paper}
+\usepackage{changepage}
 \usepackage[parfill]{parskip} % begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}	
 \usepackage{amssymb}
@@ -24,43 +25,60 @@
 \definecolor{langgray2}{HTML}{C7C9C7} %Pantone 420
 
 \begin{document}
-
 \AddToShipoutPicture{\BackgroundPic}
-\begin{titlepage}\centering
-		\begin{tikzpicture}[scale=2]
+
+\begin{titlepage}
+	\begin{adjustwidth}{-2cm}{-2cm}\centering
+		\begin{tikzpicture}[scale=2]%%BEGIN LOGO
 			%\draw[help lines] (0,0) grid (16,8);
 			\draw[langblue1,ultra thick] (7.2,5.1) -- (1.5,5.1) -- (3.9,7.7) -- (4.9,0.2) -- (0.5,6.5) -- (4.25,5.1) -- (1.5,2.515) -- (1.5,5.1);
 			\draw[langblue1,ultra thick] (4.25,5.1) -- (5.5,2.1) -- (1.53,2.5) -- (7.2,5.1) -- (5,6.2) -- (2.85,3.12);
 			\draw[langblue1,ultra thick] (4.7,3.965) -- (9.4,1.8);
 			\draw[langred1,ultra thick] (5.5,2.1) -- (7.2,5.1) -- (11.4,6.9) -- (14.8,3.1) -- (9.9,3.8) -- (7.2,5.1) -- (15.5,6.1) -- (9.9,3.8) -- (8.3,6.5) -- (9.4,1.8) -- (12.45,5.75);
 		\draw[langred1,ultra thick] (8.28,6.56) -- (5,6.2);
-		\end{tikzpicture}
+		\end{tikzpicture}%%END LOGO
+	\end{adjustwidth}\centering
 		
-	Workshop \& Conference
+			\vspace{2cm}
+			
+		%{\fontsize{5cm}{5.5cm}\selectfont This is big!}
+	{\color{langblue1}%
+	{\fontsize{2cm}{2cm}\selectfont\textbf{Workshop \& Conference}}
 	
-	March 27-29 2017 \& March 29-31 2017
+		\vspace{2cm}
 	
-	J-Building, Paderborn University
+	{\fontsize{1.2cm}{0cm}\selectfont\textbf{March 27--29 2017 \& March 29--31 2017}
 	
-	The conference is a platform for researchers from the field of corpus linguistics to discuss current topics and present their projects and latest results. The languages of the conference are English and German.
+	\textbf{J-Building, Paderborn University}}
 	
-	%{\fontsize{5cm}{5.5cm}\selectfont This is big!}
+		\vspace{2cm}
 	
-	Confirmed Speakers
+	\Huge{The conference is a platform for researchers from the field of corpus linguistics to discuss current topics and present their projects and latest results. \mbox{The languages of the conference are English and German.}}
 	
-	Dr.~Sabine Bartsch (TU Darmstadt)
+		\vspace{2cm}
 	
-	Prof.~Dr.~Klaus P.~Schneider (University of  Bonn)
+	\textbf{Confirmed Speakers}
 	
-	Prof.~em.~Dr.~Dr.~h.c.mult.~Norbert Richard Wolf (Emeritus Professor, University of W\"{u}rzburg)
+	\LARGE{Dr.~Sabine Bartsch (TU Darmstadt)
 	
-	Organiser
+	Prof.~Dr.~Klaus P.~Schneider (University of Bonn)
 	
-	Pro.~Dr.~Ilka Mindt (Paderborn University)
+	Prof.~em.~Dr.~Dr.~h.c.~mult.~Norbert R.~Wolf (Emeritus Professor, University of W\"{u}rzburg)
 	
-	For more information, please visit our website:
+		\vspace{2cm}
 	
-	http://kw.uni-paderborn.de/en/anglistik-amerikanistik/korpora2017/workshop/
+	\textbf{Organiser}
+	
+	Prof.~Dr.~Ilka Mindt (Paderborn University)}
+	
+		\vfill
+		
+	\LARGE{For more information, please visit our website:
+	
+	http://kw.uni-paderborn.de/en/anglistik-amerikanistik/korpora2017/workshop/}}
+	
+		\vspace{2cm}
+		
 		\begin{figure}[b!]
 			\includegraphics[width=0.35\textwidth,right]{UPB_LOGO_GB_CMYK_15.pdf}
 		\end{figure}
