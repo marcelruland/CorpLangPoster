@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  15 MAR 2017 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  15 MAR 2017 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -60,6 +60,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count90
+\cp@tempcnt=\count91
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
@@ -86,7 +91,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count90
+\Gread@gobject=\count92
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
@@ -146,10 +151,10 @@ de.tex
 \pgf@yc=\dimen122
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count91
-\c@pgf@countb=\count92
-\c@pgf@countc=\count93
-\c@pgf@countd=\count94
+\c@pgf@counta=\count93
+\c@pgf@countb=\count94
+\c@pgf@countc=\count95
+\c@pgf@countd=\count96
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
@@ -169,8 +174,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.c
 ode.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count95
-\pgfsyssoftpath@bigbuffer@items=\count96
+\pgfsyssoftpath@smallbuffer@items=\count97
+\pgfsyssoftpath@bigbuffer@items=\count98
 )
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.c
 ode.tex
@@ -200,7 +205,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen123
-\pgfmath@count=\count97
+\pgfmath@count=\count99
 \pgfmath@box=\box27
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
@@ -225,7 +230,7 @@ ode.tex)
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.intege
 rarithmetics.code.tex)))
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count98
+\c@pgfmathroundto@lastzeros=\count100
 ))
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.cod
 e.tex
@@ -263,7 +268,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box28
 \pgf@hbox=\box29
 \pgf@layerbox@main=\box30
-\pgf@picture@serial@count=\count99
+\pgf@picture@serial@count=\count101
 )
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicsta
 te.code.tex
@@ -298,7 +303,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 .tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen147
-\pgf@sys@shading@range@num=\count100
+\pgf@sys@shading@range@num=\count102
 )
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code
 .tex
@@ -361,7 +366,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/libraries/pgflibraryplothand
 lers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count101
+\pgf@plot@mark@count=\count103
 \pgfplotmarksize=\dimen152
 )
 \tikz@lastx=\dimen153
@@ -374,19 +379,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box34
 \tikz@tempbox=\box35
 \tikz@tempbox@bg=\box36
-\tikztreelevel=\count102
-\tikznumberofchildren=\count103
-\tikznumberofcurrentchild=\count104
-\tikz@fig@count=\count105
+\tikztreelevel=\count104
+\tikznumberofchildren=\count105
+\tikznumberofcurrentchild=\count106
+\tikz@fig@count=\count107
 
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/modules/pgfmodulematrix.code
 .tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count106
-\pgfmatrixcurrentcolumn=\count107
-\pgf@matrix@numberofcolumns=\count108
+\pgfmatrixcurrentrow=\count108
+\pgfmatrixcurrentcolumn=\count109
+\pgf@matrix@numberofcolumns=\count110
 )
-\tikz@expandcount=\count109
+\tikz@expandcount=\count111
 
 (/Users/marcelruland/Library/texmf/tex/generic/pgf/frontendlayer/tikz/libraries
 /tikzlibrarytopaths.code.tex
@@ -403,7 +408,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
 )
-\XKV@depth=\count110
+\XKV@depth=\count112
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -433,12 +438,13 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count111
+\c@checkoddpage=\count113
+LaTeX Info: Redefining \checkoddpage on input line 45.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box38
-\sift@deathcycles=\count112
+\sift@deathcycles=\count114
 \@vwid@loff=\dimen167
 \@vwid@roff=\dimen168
 ))
@@ -451,20 +457,20 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 (./CorpLangPoster.aux)
 \openout1 = `CorpLangPoster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -474,14 +480,14 @@ LaTeX Font Info:    ... okay on input line 26.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(113.81102pt, 967.3937pt, 113.81102pt)
+* h-part:(L,W,R)=(170.71652pt, 853.5827pt, 170.71652pt)
 * v-part:(T,H,B)=(113.81102pt, 1462.47165pt, 113.81102pt)
 * \paperwidth=1195.01575pt
 * \paperheight=1690.09369pt
-* \textwidth=967.3937pt
+* \textwidth=853.5827pt
 * \textheight=1462.47165pt
-* \oddsidemargin=41.54103pt
-* \evensidemargin=41.54103pt
+* \oddsidemargin=98.44653pt
+* \evensidemargin=98.44653pt
 * \topmargin=4.54103pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -502,16 +508,16 @@ LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
+\scratchcounter=\count115
 \scratchdimen=\dimen169
 \scratchbox=\box39
-\nofMPsegments=\count114
-\nofMParguments=\count115
+\nofMPsegments=\count116
+\nofMParguments=\count117
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count116
+\MPscratchCnt=\count118
 \MPscratchDim=\dimen170
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -566,33 +572,34 @@ ABD: EveryShipout initializing macros
 File: UPB_LOGO_GB_CMYK_15.pdf Graphic file (type pdf)
 
 <use UPB_LOGO_GB_CMYK_15.pdf>
-Package pdftex.def Info: UPB_LOGO_GB_CMYK_15.pdf used on input line 65.
-(pdftex.def)             Requested size: 338.59369pt x 91.08897pt.
+Package pdftex.def Info: UPB_LOGO_GB_CMYK_15.pdf used on input line 83.
+(pdftex.def)             Requested size: 298.75916pt x 80.37354pt.
 
 <background_blank_A4.pdf, id=5, 597.23125pt x 845.1575pt>
 File: background_blank_A4.pdf Graphic file (type pdf)
 
 <use background_blank_A4.pdf>
-Package pdftex.def Info: background_blank_A4.pdf used on input line 67.
+Package pdftex.def Info: background_blank_A4.pdf used on input line 85.
 (pdftex.def)             Requested size: 1194.3411pt x 1690.14322pt.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./backg
 round_blank_A4.pdf> <./UPB_LOGO_GB_CMYK_15.pdf>] (./CorpLangPoster.aux) ) 
 Here is how much of TeX's memory you used:
- 13368 strings out of 493013
- 265956 string characters out of 6133343
- 297955 words of memory out of 5000000
- 16653 multiletter control sequences out of 15000+600000
- 4245 words of font info for 16 fonts, out of 8000000 for 9000
+ 13414 strings out of 493013
+ 266746 string characters out of 6133343
+ 299682 words of memory out of 5000000
+ 16694 multiletter control sequences out of 15000+600000
+ 6645 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,425b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,425b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-Output written on CorpLangPoster.pdf (1 page, 145538 bytes).
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on CorpLangPoster.pdf (1 page, 158310 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
