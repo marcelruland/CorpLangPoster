@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  15 MAR 2017 20:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  16 MAR 2017 03:13
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **CorpLangPoster.tex
@@ -448,6 +448,209 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen167
 \@vwid@roff=\dimen168
 ))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+runsystem(uname -s > "CorpLangPoster.w18")...executed.
+
+
+(./CorpLangPoster.w18)
+runsystem(rm -- "CorpLangPoster.w18")...executed.
+
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
+Package: auto-pst-pdf 2009/04/26 v0.6 Wrapper for pst-pdf
+\c@app@runs=\count115
+runsystem(echo " ")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(echo "auto-pst-pdf: Auxiliary LaTeX compilation")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(rm -- "CorpLangPoster-pics.pdf")...executed.
+
+runsystem(latex -no-shell-escape -jobname="CorpLangPoster-autopp" -interaction=
+batchmode  "\let \APPmakepictures \empty \input  CorpLangPoster.tex")...execute
+d.
+
+runsystem(dvips -Ppdf -o "CorpLangPoster-autopp.ps" "CorpLangPoster-autopp.dvi"
+)...executed.
+
+runsystem(ps2pdf -dAutoRotatePages=/None "CorpLangPoster-autopp.ps" "CorpLangPo
+ster-autopp.pdf")...executed.
+
+runsystem(pdfcrop  "CorpLangPoster-autopp.pdf" "CorpLangPoster-pics.pdf")...exe
+cuted.
+
+runsystem(rm -- "CorpLangPoster-autopp.log")...executed.
+
+runsystem(rm -- "CorpLangPoster-autopp.dvi")...executed.
+
+runsystem(rm -- "CorpLangPoster-autopp.ps")...executed.
+
+runsystem(rm -- "CorpLangPoster-autopp.pdf")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(echo "auto-pst-pdf: End auxiliary LaTeX compilation")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
+Package: pst-pdf 2017/02/25 v1.2b PS graphics for pdfLaTeX (RN,HjG)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+)
+\c@pspicture=\count116
+Package pst-pdf Info: MODE: 1 (pdfTeX mode) on input line 213.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count117
+\pstFP@xia=\count118
+\pstFP@xib=\count119
+\pstFP@xfa=\count120
+\pstFP@xfb=\count121
+\pstFP@rega=\count122
+\pstFP@regb=\count123
+\pstFP@regs=\count124
+\pstFP@times=\count125
+)
+(/Users/marcelruland/Library/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen169
+\pgfutil@tempdimb=\dimen170
+
+(/Users/marcelruland/Library/texmf/tex/generic/pgf/utilities/pgfutil-common-lis
+ts.tex))
+(/Users/marcelruland/Library/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex)
+(/Users/marcelruland/Library/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+(/Users/marcelruland/Library/texmf/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen171
+\pgffor@skip=\dimen172
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+)
+\psLoopIndex=\count126
+
+`PSTricks' v2.71  <2016/12/23> (tvz)
+\pst@dima=\dimen173
+\pst@dimb=\dimen174
+\pst@dimc=\dimen175
+\pst@dimd=\dimen176
+\pst@dimg=\dimen177
+\pst@dimh=\dimen178
+\pst@dimm=\dimen179
+\pst@dimn=\dimen180
+\pst@dimo=\dimen181
+\pst@dimp=\dimen182
+\pst@hbox=\box39
+\pst@ibox=\box40
+\pst@boxg=\box41
+\pst@cnta=\count127
+\pst@cntb=\count128
+\pst@cntc=\count129
+\pst@cntd=\count130
+\pst@cntg=\count131
+\pst@cnth=\count132
+\pst@cntm=\count133
+\pst@cntn=\count134
+\pst@cnto=\count135
+\pst@cntp=\count136
+\@zero=\count137
+\pst@toks=\toks34
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen183
+\psxunit=\dimen184
+\psyunit=\dimen185
+\pst@C@@rType=\count138
+\pslinewidth=\dimen186
+\psk@startLW=\dimen187
+\psk@endLW=\dimen188
+\pst@customdefs=\toks35
+\pslinearc=\dimen189
+\pst@symbolStep=\dimen190
+\pst@symbolWidth=\dimen191
+\pst@symbolLinewidth=\dimen192
+\everypsbox=\toks36
+\psframesep=\dimen193
+\pslabelsep=\dimen194
+\sh@wgridXunit=\dimen195
+\sh@wgridYunit=\dimen196
+\pst@shift=\dimen197
+)
+File: pstricks.tex 2016/12/23 v2.71 `PSTricks' (tvz,hv)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2016/12/23 v2.71 `PST-fp' (hv)
+)
+\ppf@output=\toks37
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.90 (AUCTeX/preview-latex)
+\pr@snippet=\count139
+\pr@box=\box42
+\pr@output=\toks38
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks39
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pst-text/pst-text.sty
+Package: pst-text 2006/01/01 package wrapper for pst-text.tex (hv)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-text/pst-text.tex
+ v1.00, 2006/11/05(tvz,hv))
+File: pst-text.tex 2006/11/05 1.00 `pst-text' (tvz)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pst-grad/pst-grad.sty
+Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-grad/pst-grad.tex
+`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv))
+File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
@@ -457,20 +660,20 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 (./CorpLangPoster.aux)
 \openout1 = `CorpLangPoster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -508,102 +711,68 @@ LaTeX Font Info:    ... okay on input line 27.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen169
-\scratchbox=\box39
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen170
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
-\everyMPtoPDFconversion=\toks32
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
+\scratchcounter=\count140
+\scratchdimen=\dimen198
+\scratchbox=\box43
+\nofMPsegments=\count141
+\nofMParguments=\count142
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen199
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
+\everyMPtoPDFconversion=\toks41
+) ABD: EveryShipout initializing macros
+Preview: Fontsize 12pt
+Preview: PDFoutput 1
+\AtBeginShipoutBox=\box44
+<CorpLangPoster-pics.pdf, id=5, page=1, 793.96625pt x 86.3225pt>
+File: CorpLangPoster-pics.pdf Graphic file (type pdf)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+<use CorpLangPoster-pics.pdf, page 1>
+Package pdftex.def Info: CorpLangPoster-pics.pdf, page1 used on input line 65.
+(pdftex.def)             Requested size: 793.96431pt x 86.32227pt.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box40
-
-<UPB_LOGO_GB_CMYK_15.pdf, id=4, 541.02126pt x 145.54375pt>
+<UPB_LOGO_GB_CMYK_15.pdf, id=6, 541.02126pt x 145.54375pt>
 File: UPB_LOGO_GB_CMYK_15.pdf Graphic file (type pdf)
 
 <use UPB_LOGO_GB_CMYK_15.pdf>
-Package pdftex.def Info: UPB_LOGO_GB_CMYK_15.pdf used on input line 72.
+Package pdftex.def Info: UPB_LOGO_GB_CMYK_15.pdf used on input line 96.
 (pdftex.def)             Requested size: 298.75916pt x 80.37354pt.
 
-Overfull \hbox (46.95381pt too wide) in paragraph at lines 72--74
+Overfull \hbox (46.95381pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
-<background_blank_A4.pdf, id=5, 597.23125pt x 845.1575pt>
+<background_blank_A4.pdf, id=7, 597.23125pt x 845.1575pt>
 File: background_blank_A4.pdf Graphic file (type pdf)
 
 <use background_blank_A4.pdf>
-Package pdftex.def Info: background_blank_A4.pdf used on input line 74.
+Package pdftex.def Info: background_blank_A4.pdf used on input line 98.
 (pdftex.def)             Requested size: 1194.3411pt x 1690.14322pt.
  [1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./backg
-round_blank_A4.pdf> <./UPB_LOGO_GB_CMYK_15.pdf>] (./CorpLangPoster.aux) ) 
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map} <./background_blank_A4.pdf> <./CorpLangPoster-pics.pdf> <./UPB_
+LOGO_GB_CMYK_15.pdf>] (./CorpLangPoster.aux) ) 
 Here is how much of TeX's memory you used:
- 13414 strings out of 493013
- 266746 string characters out of 6133343
- 299682 words of memory out of 5000000
- 16694 multiletter control sequences out of 15000+600000
+ 15025 strings out of 493013
+ 291141 string characters out of 6133343
+ 340574 words of memory out of 5000000
+ 18235 multiletter control sequences out of 15000+600000
  6645 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,425b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on CorpLangPoster.pdf (1 page, 158296 bytes).
+ 55i,13n,54p,425b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on CorpLangPoster.pdf (1 page, 162133 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
