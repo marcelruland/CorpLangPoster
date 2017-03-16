@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  16 MAR 2017 03:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  16 MAR 2017 09:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**CorpLangPoster.tex
-(./CorpLangPoster.tex
+**CorpLangPosterAmpersand.tex
+(./CorpLangPosterAmpersand.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/fix-cm.sty
@@ -473,11 +473,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
-runsystem(uname -s > "CorpLangPoster.w18")...executed.
+runsystem(uname -s > "CorpLangPosterAmpersand.w18")...executed.
 
 
-(./CorpLangPoster.w18)
-runsystem(rm -- "CorpLangPoster.w18")...executed.
+(./CorpLangPosterAmpersand.w18)
+runsystem(rm -- "CorpLangPosterAmpersand.w18")...executed.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
@@ -491,28 +491,26 @@ runsystem(echo "auto-pst-pdf: Auxiliary LaTeX compilation")...executed.
 
 runsystem(echo "-------------------------------------------------")...executed.
 
-runsystem(rm -- "CorpLangPoster-pics.pdf")...executed.
+runsystem(latex -no-shell-escape -jobname="CorpLangPosterAmpersand-autopp" -int
+eraction=batchmode  "\let \APPmakepictures \empty \input  CorpLangPosterAmpersa
+nd.tex")...executed.
 
-runsystem(latex -no-shell-escape -jobname="CorpLangPoster-autopp" -interaction=
-batchmode  "\let \APPmakepictures \empty \input  CorpLangPoster.tex")...execute
-d.
+runsystem(dvips -Ppdf -o "CorpLangPosterAmpersand-autopp.ps" "CorpLangPosterAmp
+ersand-autopp.dvi")...executed.
 
-runsystem(dvips -Ppdf -o "CorpLangPoster-autopp.ps" "CorpLangPoster-autopp.dvi"
-)...executed.
+runsystem(ps2pdf -dAutoRotatePages=/None "CorpLangPosterAmpersand-autopp.ps" "C
+orpLangPosterAmpersand-autopp.pdf")...executed.
 
-runsystem(ps2pdf -dAutoRotatePages=/None "CorpLangPoster-autopp.ps" "CorpLangPo
-ster-autopp.pdf")...executed.
+runsystem(pdfcrop  "CorpLangPosterAmpersand-autopp.pdf" "CorpLangPosterAmpersan
+d-pics.pdf")...executed.
 
-runsystem(pdfcrop  "CorpLangPoster-autopp.pdf" "CorpLangPoster-pics.pdf")...exe
-cuted.
+runsystem(rm -- "CorpLangPosterAmpersand-autopp.log")...executed.
 
-runsystem(rm -- "CorpLangPoster-autopp.log")...executed.
+runsystem(rm -- "CorpLangPosterAmpersand-autopp.dvi")...executed.
 
-runsystem(rm -- "CorpLangPoster-autopp.dvi")...executed.
+runsystem(rm -- "CorpLangPosterAmpersand-autopp.ps")...executed.
 
-runsystem(rm -- "CorpLangPoster-autopp.ps")...executed.
-
-runsystem(rm -- "CorpLangPoster-autopp.pdf")...executed.
+runsystem(rm -- "CorpLangPosterAmpersand-autopp.pdf")...executed.
 
 runsystem(echo "-------------------------------------------------")...executed.
 
@@ -656,8 +654,8 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 ))
-(./CorpLangPoster.aux)
-\openout1 = `CorpLangPoster.aux'.
+No file CorpLangPosterAmpersand.aux.
+\openout1 = `CorpLangPosterAmpersand.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
@@ -673,7 +671,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -725,11 +722,12 @@ LaTeX Font Info:    ... okay on input line 46.
 Preview: Fontsize 12pt
 Preview: PDFoutput 1
 \AtBeginShipoutBox=\box44
-<CorpLangPoster-pics.pdf, id=5, page=1, 793.96625pt x 86.3225pt>
-File: CorpLangPoster-pics.pdf Graphic file (type pdf)
+<CorpLangPosterAmpersand-pics.pdf, id=5, page=1, 793.96625pt x 86.3225pt>
+File: CorpLangPosterAmpersand-pics.pdf Graphic file (type pdf)
 
-<use CorpLangPoster-pics.pdf, page 1>
-Package pdftex.def Info: CorpLangPoster-pics.pdf, page1 used on input line 65.
+<use CorpLangPosterAmpersand-pics.pdf, page 1>
+Package pdftex.def Info: CorpLangPosterAmpersand-pics.pdf, page1 used on input 
+line 65.
 (pdftex.def)             Requested size: 793.96431pt x 86.32227pt.
 
 <UPB_LOGO_GB_CMYK_15.pdf, id=6, 541.02126pt x 145.54375pt>
@@ -739,7 +737,7 @@ File: UPB_LOGO_GB_CMYK_15.pdf Graphic file (type pdf)
 Package pdftex.def Info: UPB_LOGO_GB_CMYK_15.pdf used on input line 96.
 (pdftex.def)             Requested size: 268.88322pt x 72.3364pt.
 
-Overfull \hbox (42.25842pt too wide) in paragraph at lines 96--97
+Overfull \hbox (92.19489pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
@@ -755,20 +753,20 @@ Package pdftex.def Info: background_blank_A4.pdf used on input line 98.
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map} <./background_blank_A4.pdf> <./CorpLangPoster-pics.pdf> <./UPB_
-LOGO_GB_CMYK_15.pdf>] (./CorpLangPoster.aux) ) 
+map/pdftex.map} <./background_blank_A4.pdf> <./CorpLangPosterAmpersand-pics.pdf
+> <./UPB_LOGO_GB_CMYK_15.pdf>] (./CorpLangPosterAmpersand.aux) ) 
 Here is how much of TeX's memory you used:
- 15025 strings out of 493013
- 291141 string characters out of 6133343
- 340588 words of memory out of 5000000
- 18235 multiletter control sequences out of 15000+600000
- 6645 words of font info for 24 fonts, out of 8000000 for 9000
+ 15022 strings out of 493013
+ 291228 string characters out of 6133343
+ 340700 words of memory out of 5000000
+ 18234 multiletter control sequences out of 15000+600000
+ 6351 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,425b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on CorpLangPoster.pdf (1 page, 162133 bytes).
+ 55i,13n,54p,434b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on CorpLangPosterAmpersand.pdf (1 page, 162148 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream

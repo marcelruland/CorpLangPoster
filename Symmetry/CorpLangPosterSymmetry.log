@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  16 MAR 2017 03:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.25)  16 MAR 2017 09:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**CorpLangPosterLargeFont.tex
-(./CorpLangPosterLargeFont.tex
+**CorpLangPosterSymmetry.tex
+(./CorpLangPosterSymmetry.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/fix-cm.sty
@@ -473,11 +473,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
-runsystem(uname -s > "CorpLangPosterLargeFont.w18")...executed.
+runsystem(uname -s > "CorpLangPosterSymmetry.w18")...executed.
 
 
-(./CorpLangPosterLargeFont.w18)
-runsystem(rm -- "CorpLangPosterLargeFont.w18")...executed.
+(./CorpLangPosterSymmetry.w18)
+runsystem(rm -- "CorpLangPosterSymmetry.w18")...executed.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
@@ -491,28 +491,28 @@ runsystem(echo "auto-pst-pdf: Auxiliary LaTeX compilation")...executed.
 
 runsystem(echo "-------------------------------------------------")...executed.
 
-runsystem(rm -- "CorpLangPosterLargeFont-pics.pdf")...executed.
+runsystem(rm -- "CorpLangPosterSymmetry-pics.pdf")...executed.
 
-runsystem(latex -no-shell-escape -jobname="CorpLangPosterLargeFont-autopp" -int
-eraction=batchmode  "\let \APPmakepictures \empty \input  CorpLangPosterLargeFo
-nt.tex")...executed.
+runsystem(latex -no-shell-escape -jobname="CorpLangPosterSymmetry-autopp" -inte
+raction=batchmode  "\let \APPmakepictures \empty \input  CorpLangPosterSymmetry
+.tex")...executed.
 
-runsystem(dvips -Ppdf -o "CorpLangPosterLargeFont-autopp.ps" "CorpLangPosterLar
-geFont-autopp.dvi")...executed.
+runsystem(dvips -Ppdf -o "CorpLangPosterSymmetry-autopp.ps" "CorpLangPosterSymm
+etry-autopp.dvi")...executed.
 
-runsystem(ps2pdf -dAutoRotatePages=/None "CorpLangPosterLargeFont-autopp.ps" "C
-orpLangPosterLargeFont-autopp.pdf")...executed.
+runsystem(ps2pdf -dAutoRotatePages=/None "CorpLangPosterSymmetry-autopp.ps" "Co
+rpLangPosterSymmetry-autopp.pdf")...executed.
 
-runsystem(pdfcrop  "CorpLangPosterLargeFont-autopp.pdf" "CorpLangPosterLargeFon
-t-pics.pdf")...executed.
+runsystem(pdfcrop  "CorpLangPosterSymmetry-autopp.pdf" "CorpLangPosterSymmetry-
+pics.pdf")...executed.
 
-runsystem(rm -- "CorpLangPosterLargeFont-autopp.log")...executed.
+runsystem(rm -- "CorpLangPosterSymmetry-autopp.log")...executed.
 
-runsystem(rm -- "CorpLangPosterLargeFont-autopp.dvi")...executed.
+runsystem(rm -- "CorpLangPosterSymmetry-autopp.dvi")...executed.
 
-runsystem(rm -- "CorpLangPosterLargeFont-autopp.ps")...executed.
+runsystem(rm -- "CorpLangPosterSymmetry-autopp.ps")...executed.
 
-runsystem(rm -- "CorpLangPosterLargeFont-autopp.pdf")...executed.
+runsystem(rm -- "CorpLangPosterSymmetry-autopp.pdf")...executed.
 
 runsystem(echo "-------------------------------------------------")...executed.
 
@@ -656,8 +656,8 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 ))
-(./CorpLangPosterLargeFont.aux)
-\openout1 = `CorpLangPosterLargeFont.aux'.
+(./CorpLangPosterSymmetry.aux)
+\openout1 = `CorpLangPosterSymmetry.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
@@ -725,12 +725,12 @@ LaTeX Font Info:    ... okay on input line 46.
 Preview: Fontsize 12pt
 Preview: PDFoutput 1
 \AtBeginShipoutBox=\box44
-<CorpLangPosterLargeFont-pics.pdf, id=5, page=1, 793.96625pt x 86.3225pt>
-File: CorpLangPosterLargeFont-pics.pdf Graphic file (type pdf)
+<CorpLangPosterSymmetry-pics.pdf, id=5, page=1, 793.96625pt x 86.3225pt>
+File: CorpLangPosterSymmetry-pics.pdf Graphic file (type pdf)
 
-<use CorpLangPosterLargeFont-pics.pdf, page 1>
-Package pdftex.def Info: CorpLangPosterLargeFont-pics.pdf, page1 used on input 
-line 65.
+<use CorpLangPosterSymmetry-pics.pdf, page 1>
+Package pdftex.def Info: CorpLangPosterSymmetry-pics.pdf, page1 used on input l
+ine 65.
 (pdftex.def)             Requested size: 793.96431pt x 86.32227pt.
 
 <UPB_LOGO_GB_CMYK_15.pdf, id=6, 541.02126pt x 145.54375pt>
@@ -740,7 +740,7 @@ File: UPB_LOGO_GB_CMYK_15.pdf Graphic file (type pdf)
 Package pdftex.def Info: UPB_LOGO_GB_CMYK_15.pdf used on input line 96.
 (pdftex.def)             Requested size: 268.88322pt x 72.3364pt.
 
-Overfull \hbox (42.25842pt too wide) in paragraph at lines 96--97
+Overfull \hbox (92.19489pt too wide) in paragraph at lines 96--97
  [][] 
  []
 
@@ -756,20 +756,20 @@ Package pdftex.def Info: background_blank_A4.pdf used on input line 98.
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map} <./background_blank_A4.pdf> <./CorpLangPosterLargeFont-pics.pdf
-> <./UPB_LOGO_GB_CMYK_15.pdf>] (./CorpLangPosterLargeFont.aux) ) 
+map/pdftex.map} <./background_blank_A4.pdf> <./CorpLangPosterSymmetry-pics.pdf>
+ <./UPB_LOGO_GB_CMYK_15.pdf>] (./CorpLangPosterSymmetry.aux) ) 
 Here is how much of TeX's memory you used:
  15024 strings out of 493013
- 291284 string characters out of 6133343
- 340696 words of memory out of 5000000
+ 291266 string characters out of 6133343
+ 340685 words of memory out of 5000000
  18234 multiletter control sequences out of 15000+600000
  6351 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,434b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on CorpLangPosterLargeFont.pdf (1 page, 162161 bytes).
+ 55i,13n,54p,433b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on CorpLangPosterSymmetry.pdf (1 page, 162139 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
